@@ -1,1 +1,2 @@
 1.CMake Error at /usr/share/cmake-3.5/Modules/FindCUDA.cmake:617 (message):   sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda  
+2.安装ros-kinetic-usb-cam驱动显示找不到源： sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'    sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xB01FA116  wget http://packages.ros.org/ros.key -O - | sudo apt-key add -    
