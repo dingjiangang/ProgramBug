@@ -8,10 +8,9 @@ sudo cp /usr/local/cuda-8.0/lib64/libcudart.so.8.0 /usr/local/lib/libcudart.so.8
 sudo cp /usr/local/cuda-8.0/lib64/libcublas.so.8.0 /usr/local/lib/libcublas.so.8.0 && sudo ldconfig  
 sudo cp /usr/local/cuda-8.0/lib64/libcurand.so.8.0 /usr/local/lib/libcurand.so.8.0 && sudo ldconfig  
 6.sudo pip install -r /home/dingjiangang/caffe/python/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple  
-pip 按照requirements安装依赖，且添加清华大学镜像源  
-7. sudo ln -s /usr/bin/python3.5 /usr/bin/python  删除2.7python 如何让3.5生效  
-8.export LD_LIBRARY_PATH="$HOME/caffe/build/lib:$LD_LIBRARY_PATH"  添加caffe的python环境变量   
-9.cmake .. -DCMAKE_INSTALL_PREFIX=/home/dingjiangang/projects/nihao/third_pa
+pip 按照requirements安装依赖，且添加清华大学镜像源   
+7.export LD_LIBRARY_PATH="$HOME/caffe/build/lib:$LD_LIBRARY_PATH"  添加caffe的python环境变量   
+8.cmake .. -DCMAKE_INSTALL_PREFIX=/home/dingjiangang/projects/nihao/third_pa
 rty/yaml-cpp-yaml-cpp-0.5.3/gen   
 
 
