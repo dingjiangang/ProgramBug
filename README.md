@@ -13,11 +13,11 @@
 8.cmake .. -DCMAKE_INSTALL_PREFIX=/home/dingjiangang/projects/nihao/third_pa
   rty/yaml-cpp-yaml-cpp-0.5.3/gen  
 9.如何引用不同版本的opencv  
-  将库安装在指定目录，在cmakelist里面添加  
-  set(OpenCV_DIR /home/djg/opencv-3.2.0/share/OpenCV)  
-  find_package(OpenCV REQUIRED)  
-  include_directories(${OpenCV_INCLUDE_DIRS})  
-  target_link_libraries(nihao  ${OpenCV_LIBS} )  
+   将库安装在指定目录，在cmakelist里面添加  
+   set(OpenCV_DIR /home/djg/opencv-3.2.0/share/OpenCV)  
+   find_package(OpenCV REQUIRED)  
+   include_directories(${OpenCV_INCLUDE_DIRS})  
+   target_link_libraries(nihao  ${OpenCV_LIBS} )   
 
 
  
