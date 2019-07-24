@@ -17,8 +17,10 @@
    set(OpenCV_DIR /home/djg/opencv-3.2.0/share/OpenCV)  
    find_package(OpenCV REQUIRED)  
    include_directories(${OpenCV_INCLUDE_DIRS})  
-   target_link_libraries(nihao  ${OpenCV_LIBS} )   
-
+   target_link_libraries(nihao  ${OpenCV_LIBS} ) 
+  
+10.sudo apt-get install ros-kinetic-jsk-rviz-plugins 
+sudo apt-get install ros-kinetic-jsk-recognition-msgs  
 
  
  
