@@ -7,10 +7,8 @@ sudo cp /usr/local/cuda-8.0/lib64/libcudart.so.8.0 /usr/local/lib/libcudart.so.8
 sudo cp /usr/local/cuda-8.0/lib64/libcublas.so.8.0 /usr/local/lib/libcublas.so.8.0 && sudo ldconfig  
 sudo cp /usr/local/cuda-8.0/lib64/libcurand.so.8.0 /usr/local/lib/libcurand.so.8.0 && sudo ldconfig  
   
-
 # pip如何使用清华源安装第三方库
 sudo pip install -r /home/dingjiangang/caffe/python/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple    
-
 
 # 如何引用不同版本的opencv  
 将库安装在指定目录，在cmakelist里面添加  
@@ -19,9 +17,8 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})  
 target_link_libraries(nihao  ${OpenCV_LIBS} )  
 
-
 # vscode  
-## vscode安装  
+## 一、vscode安装  
 ### 通过官方PPA安装Ubuntu make  
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
