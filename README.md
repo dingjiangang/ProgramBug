@@ -15,7 +15,21 @@ sudo pip install -r /home/dingjiangang/caffe/python/requirements.txt -i https://
 set(OpenCV_DIR /home/djg/opencv-3.2.0/share/OpenCV)  
 find_package(OpenCV REQUIRED)  
 include_directories(${OpenCV_INCLUDE_DIRS})  
-target_link_libraries(nihao  ${OpenCV_LIBS} )   
+target_link_libraries(nihao  ${OpenCV_LIBS} )  
+
+# vscode  
+## vscode安装  
+### 通过官方PPA安装Ubuntu make  
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+sudo apt-get update
+sudo apt-get install ubuntu-make
+###  使用命令安装visual studio code   
+umake ide visual-studio-code
+###  卸载已经安装的VSCode  
+umake ide visual-studio-code  --remove
+### 启动vscode
+sh /home/dingjiangang/.local/share/umake/ide/visual-studio-code/bin/code
+
 
  
  
