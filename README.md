@@ -1,7 +1,11 @@
 # 拯救者无线网链接问题  
-1.https://blog.csdn.net/kaixinjiuxing666/article/details/80321124  ubuntu创建虚拟环境    
-2.https://blog.csdn.net/qq_40994114/article/details/79464549 安装cudnn7.1  
-3.conda env create --file environment_cpu.yml  
+1.rfkill list all
+2.sudo modprobe -r ideapad_laptop
+
+
+ 
+
+
 4.https://blog.csdn.net/xiaoming0018/article/details/80346895   破解pycharm  
 5.cuda动态库链接  
   sudo cp /usr/local/cuda-8.0/lib64/libcudnn.so.6.0.20 /usr/local/lib/libcudnn.so.6.0.20 && sudo ldconfig  
