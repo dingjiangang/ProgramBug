@@ -1,6 +1,8 @@
-# 拯救者无线网链接问题  
+# 拯救者无线网链接问题 
+``` 
 rfkill list all  
 sudo modprobe -r ideapad_laptop  
+```
 # cuda动态库链接  
 sudo cp /usr/local/cuda-8.0/lib64/libcudnn.so.6.0.20 /usr/local/lib/libcudnn.so.6.0.20 && sudo ldconfig  
 sudo cp /usr/local/cuda-8.0/lib64/libcudart.so.8.0 /usr/local/lib/libcudart.so.8.0 && sudo ldconfig  
