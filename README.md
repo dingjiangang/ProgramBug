@@ -1,8 +1,13 @@
 # 拯救者无线网链接问题 
 ``` 
 rfkill list all  
-sudo modprobe -r ideapad_laptop  
+sudo modprobe -r ideapad_laptop 
 ```
+在文件/etc/rc.local文件中添加命令
+```
+echo "123" |sudo modprobe -r ideapad_laptop
+```
+
 # cuda动态库链接 
 ```  
 sudo cp /usr/local/cuda-8.0/lib64/libcudnn.so.6.0.20 /usr/local/lib/libcudnn.so.6.0.20 && sudo ldconfig  
