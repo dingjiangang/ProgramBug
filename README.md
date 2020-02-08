@@ -51,11 +51,11 @@ sh /home/dingjiangang/.local/share/umake/ide/visual-studio-code/bin/code
 - 添加源  
   + 打开一个控制台(Ctrl + Alt + T), 输入如下指令：
 ```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'  
 ```
-  + 设置秘钥:
+  + 设置秘钥:   
 ```
-sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116  
 ```
 - 安装 ROS 
   + 首先确保系统软件处于最新版 
@@ -72,7 +72,7 @@ sudo apt-get install ros-kinetic-desktop-full
 sudo rosdep init
 rosdep update
 ```
-  + 初始化环境变量 
+  + 初始化环境变量  
 ```
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
