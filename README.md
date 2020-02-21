@@ -77,5 +77,8 @@ rosdep update
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```  
-
+# autoware 矢量地图制作  
+```
+http://xchu.net/2019/08/20/autoware-vector-map-builder-guide/
+```
 
