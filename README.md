@@ -93,3 +93,14 @@ http://www.hostmath.com/
 ```
 https://naotu.baidu.com/home
 ```
+# GridMap安装  
+# 百度思维导图 
+```
+sudo apt-get install ros-kinetic-costmap-2d
+sudo apt-get install ros-kinetic-grid-map
+cd catkin_ws/src
+git clone https://github.com/ethz-asl/grid_map.git
+cd ../
+catkin_make -DCMAKE_BUILD_TYPE=Release
+```
+
